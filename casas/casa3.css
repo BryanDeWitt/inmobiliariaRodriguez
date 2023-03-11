@@ -1,0 +1,9 @@
+.hero_casa{
+    height: 80vh;
+    opacity: .90;
+    background-image: url(../imagenes/casas/casa3/840_560.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}

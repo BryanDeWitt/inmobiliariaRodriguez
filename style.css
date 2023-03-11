@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'Roboto Mono', monospace, sans-serif;
+    text-decoration: none;
+}
+.body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon h1{
+    font-family: 'Times New Roman';
+}
+
+.main_logo{
+    height: 40px;
+    width: auto;
+}
+
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.icon :last-child{
+   margin-left: -10px;
+}
+.icon :first-child{
+    margin-right: 10px;
+}
+
+.ign{
+    width: 30px;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 10px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px black;
+    z-index: 200;
+}
+
+ul li{
+    font-size: 1.3rem ;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+ul a:visited{
+    font-size: 1.3rem;
+    color: black;
+}
+
+ul a:visited:hover{
+    font-size: 1.3rem;
+    color: orange;
+}
+.info>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.hero {
+    position: relative; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(104, 177, 177);
+}
+
+.hero::before {    
+      content: "";
+      background-image: url(./imagenes/hero/mauricio-munoz-0iwWAJeVpzU-unsplash.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.60;
+}
+
+.hero h1{
+  position: relative;
+  color: #ffffff; 
+  text-shadow: 2px 2px 2px black; 
+  font-size: 4vw;
+  text-align: center;
+}
+
+
+
+
+
+.casas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.casa{
+    height: 350px;
+    width: 400px;
+    margin: 50px 10px; 
+    box-shadow: 2px 2px 20px rgb(90, 90, 90);
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 3px;
+}
+
+.casa:hover{
+    transition: .3s;
+    height: 355px;
+    width: 405px;
+    cursor: pointer;
+}
+
+.casa1{
+    background: url(./imagenes/casas/casa1/descarga.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.casa2{
+    background: url(./imagenes/casas/casa2/casas-ecológicas_apertura-hogar-sostenibilidad-certificado-.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.casa3{
+    background: url(./imagenes/casas/casa3/840_560.jpeg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.icono{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.iconos img{
+    height: 20px;
+}
+
+.ubi{
+    display: flex;
+}
+
+.precio{
+    color: green;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px;
+}
+
+.foot_logo{
+    height: 100px;
+}
+
+footer a{
+    padding: 10px;
+    font-size: clamp(15px, 2vw, 30px);
+    text-decoration: none;
+    color: black;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgb(221, 221, 221);
+}
+
+.servicios p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.servicios h1{
+    text-align: center;
+}
+
+.servicios form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textArea [type="submit"]{
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(16, 83, 83);
+    color: white;
+}
+
+.textArea textarea{
+    width: clamp(80px, 65vw, 600px);
+    padding: 10px;
+}
+
+.textArea [type="submit"]:hover{
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 142, 12);
+    color: rgb(2, 0, 0);
+    cursor: pointer;
+}
+
+
+.inputs input{
+    margin: 5px;
+    padding: 5px;
+    width: clamp(25px, 20vw, 150px);
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+footer a:hover{
+    color: orange;
+}
+
+@media (max-width: 760px){
+    nav .info ul{
+        display: grid;
+        position: absolute;
+        left: 0;
+        padding:25px;
+        top: 60px;
+        background-color: white;
+        transform: translateX(100%);
+        width: 100%;
+        z-index: -10;
+        transition: .6s;
+    }
+
+    nav .nav_lab{
+        display: grid !important;
+        height: min-content;
+        margin: 18px -10px 0 0; 
+    }
+
+    ul img{
+        display: none;
+    }
+
+    ul li:nth-child(3)::after {
+        content:"Instagram";
+    }
+
+    ul li:nth-child(4)::after{
+        content: "WhatsApp";
+    }
+
+    .hero h1{
+        position: relative;
+        color: #ffffff; 
+        text-shadow: 2px 2px 2px black; 
+        font-size: 1.7rem;
+        text-align: center;
+      }
+
+    .servicios p{
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+nav .nav_lab{
+    display: none;
+    height: min-content;
+    margin: 5px 10px 0 auto;
+}
+
+nav .nav_lab .bar{
+    width: 35px;
+    height: 5px;
+    margin-bottom: 7px;
+    background-color: black;
+    border-radius: 17%;
+    transition: .4s;
+}
+
+#toggle{
+    display: none;
+}
+
+input:checked ~ ul{
+    transform: translateX(0);
+}
+
+input:checked ~ .nav_lab{
+    margin-top: 15px;
+}
+
+input:checked ~ .nav_lab .bar:nth-child(1){
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+input:checked ~ .nav_lab .bar:nth-child(2){
+    display: none;
+}
+
+input:checked ~ .nav_lab .bar:nth-child(3){
+    transform: rotate(-45deg);
+}
