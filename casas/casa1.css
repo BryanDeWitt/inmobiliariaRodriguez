@@ -53,6 +53,9 @@ nav{
     z-index: 200;
 }
 
+a{
+    color: black;
+}
 ul li{
     font-size: 1.3rem ;
 }
