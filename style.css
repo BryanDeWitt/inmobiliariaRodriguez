@@ -8,6 +8,21 @@
     font-family: 'Ubuntu', 'Roboto Mono', monospace, sans-serif;
     text-decoration: none;
 }
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div:visited{
+    text-decoration: none;
+    color: black;
+}
 .body{
     min-height: 100vh;
     display: flex;
@@ -299,18 +314,7 @@ footer a:hover{
         margin: 18px -10px 0 0; 
     }
 
-    ul img{
-        display: none;
-    }
-
-    ul li:nth-child(3)::after {
-        content:"Instagram";
-    }
-
-    ul li:nth-child(4)::after{
-        content: "WhatsApp";
-    }
-
+    
     .hero h1{
         position: relative;
         color: #ffffff; 
