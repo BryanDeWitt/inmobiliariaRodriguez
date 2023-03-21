@@ -167,8 +167,8 @@ footer a{
 
 .hero_casa{
     height: 80vh;
-    opacity: .90;
-    background-image: url(../imagenes/casas/casa1/descarga.jfif);
+    opacity: 85%;
+    background-image: url(../imagenes/casas/casa1/WhatsApp\ Image\ 2023-03-17\ at\ 14.05.23.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -277,6 +277,10 @@ footer a:hover{
 
 .observaciones{
     margin: 10px auto 150px 10px;
+}
+
+p{
+    margin: 15px 0px;
 }
 
 
