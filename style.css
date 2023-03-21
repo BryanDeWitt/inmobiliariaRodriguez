@@ -263,6 +263,7 @@ footer a{
 .textArea textarea{
     width: clamp(80px, 65vw, 600px);
     padding: 10px;
+    resize: none;
 }
 
 .textArea [type="submit"]:hover{
