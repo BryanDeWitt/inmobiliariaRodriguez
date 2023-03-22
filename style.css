@@ -8,6 +8,9 @@
     font-family: 'Ubuntu', 'Roboto Mono', monospace, sans-serif;
     text-decoration: none;
 }
+html,body{
+    overflow-x: hidden;
+}
 
 a:visited{
     text-decoration: none;
