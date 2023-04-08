@@ -8,7 +8,7 @@
     font-family: 'Ubuntu', 'Roboto Mono', monospace, sans-serif;
     text-decoration: none;
 }
-html,body{
+html{
     overflow-x: hidden;
 }
 
@@ -169,7 +169,7 @@ ul a:visited:hover{
 }
 
 .casa3{
-    background: url(./imagenes/casas/casa3/840_560.jpeg);
+    background: url(./imagenes/casas/casa3/WhatsApp\ Image\ 2023-04-08\ at\ 14.58.43.jpeg);
     background-repeat: no-repeat;
     background-size: 120%;
 }
